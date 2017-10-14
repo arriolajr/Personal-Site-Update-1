@@ -1,0 +1,429 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+.button {
+    background-color: #3bcbf1;
+    border: none;
+    color: white;
+    padding: 1em 2.1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: .25em .125em;
+    cursor: pointer;
+    border-radius: .5em;
+}
+
+p{
+  letter-spacing: .093em;
+  line-height: 150%;
+}
+
+/**************************   header **************************/
+#name{
+     font-size: 1.9em;
+     text-align: center;
+     font-family: 'Cormorant Garamond', serif;
+     z-index: 3;
+
+   }
+   #tagline {
+     color: #0099cc;
+     z-index: 2;
+   }
+/*****************************   Profile Image  *********************/
+.ProPic{
+   background-color: #3bcbf1;
+   border-left: .06em solid black;
+   color: orange;
+   position: fixed;
+   right: 0;
+   top: 0;
+  width: 13em;
+  height: 100%;
+}
+/*******************************   Menu   *******************************/
+.menu {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+
+}
+.menu-open {
+  left: 14.4em;
+}
+.menu-open .menu-slide {
+  left: 0;
+}
+.menu-slide,
+.menu {
+  -webkit-transition: left 0.5s ease;
+  -moz-transition: left 0.5s ease;
+  transition: left 0.5s ease;
+}
+.menu-slide {
+background-color: #3bcbf1;
+border-right: .06em solid #000;
+color: white;
+position: fixed;
+top: 0;
+left: -14.4em;
+width: 13.1em;
+height: 100%;
+padding: .6em;
+z-index: 1;
+line-height: 300%;
+font-size: 165%;
+overflow-y: hidden;
+}
+.menu-toggle {
+  color: gold;
+  font-size: 153%;
+  z-index: 1;
+  position: fixed;
+}
+/******************************  main and Bow tie images ************************/
+
+#bowtie > img {
+  height:55%;
+  bottom: 13%;
+  float: left;
+  clear: both;
+  position: absolute;
+  z-index: -1;
+}
+
+#homePic  {
+  top: 33%;
+  height: 6.25em;
+  width: 6.25em;
+ background-image: url(images/henley.jpeg);
+  
+}
+
+
+/****************************        links      ********************/
+a {
+  color: white;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: #f44271;
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+/*************************         Contact Page     ************************/
+.contactpage {
+  background: white;
+  /*background: -webkit-linear-gradient(left,  #3bcbf1, #d6dff0);
+  background: -o-linear-gradient(right,  #3bcbf1, #d6dff0);
+  background: -moz-linear-gradient(right,  #3bcbf1, #d6dff0);
+  background: linear-gradient(to right,  #3bcbf1, #d6dff0);*/
+}
+/*
+.JumbotronContact {
+  background: url("images/shoes.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  
+
+
+}*/
+
+.JumbotronCoding {
+  background: url("images/underconstruction.jpg") no-repeat center center;
+  background-size: contain;
+  height: 12.5em;
+
+
+}
+
+
+.contact-image {
+    background-image: url("images/shoes.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.contact-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+#hiS{
+  color: #3bcbf1;
+}
+
+#dm {
+   text-align: center;
+   margin-top: 3.125em;
+   margin-bottom: 6.25em;
+   color: black;
+}
+
+#gmail{
+  color:red;
+}
+/**************                  Coding History Page    *************************/
+.chHeader{
+  padding: 4%;
+}
+.codeHistory {
+  text-align: center;
+  text-overflow: auto;
+  line-height: 210%;
+  padding-right: 11%;
+  padding-left: 11%
+
+}
+
+.codingLinks {
+  text-align: center;
+}
+
+/******************       About     *******************************************/
+#aboutpic > img {
+   /* border: 1px solid #3bcbf1;
+    border-radius: 18px;*/
+   /* padding: 5px;*/
+    width: 40%;
+    float: right;
+    filter: brightness(120%);
+    box-shadow: .6em .6em 3em #888888;
+    border-radius: 4%;
+}
+
+.aboutsummary {
+  padding-top: 2.5em;
+}
+
+/***********************      Military    *****************/
+div.NGimage {
+  background-image:url(images/boots.jpg);
+  height:  100%;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.AAimage {
+  background-image:url(images/iraq.jpg);
+  height: 100%;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.NVimage{
+  background-image:url(images/600.jpg);
+  height: 100%;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+    /*position: absolute;*/
+    left: 0;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span.border {
+    color: gold;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    
+}
+
+.NGdis {
+  height: 12.5em;
+  text-align: center;
+  line-height: 200%;
+  padding-left: 11%;
+  padding-right: 11%;
+
+}
+
+#ng {
+  background-color: white;
+  color: #009900;
+  border-bottom-right-radius: .4em;
+  border-bottom-left-radius: .4em;
+}
+
+.AAdis {
+  height: 12.5em;
+  text-align: center;
+  line-height: 200%;
+  padding-left: 11%;
+  padding-right: 11%;
+}
+
+#aa {
+  color: #66ff99;
+  background-color: black;
+  border-bottom-right-radius: .4em;
+  border-bottom-left-radius: .4em;
+}
+
+.NVdis {
+  height: 12.5em;
+  text-align: center;
+  line-height: 200%;
+  padding-left: 11%;
+  padding-right: 11%;
+}
+
+#nv {
+  background-color: #003cb3;
+  border-bottom-right-radius: .4em;
+  border-bottom-left-radius: .4em;
+}
+
+/*****************************      Non-profit/vvolunteer ******************************/
+
+
+div.NYCPimage {
+  background-image:url(images/grape.jpg);
+  height:  100%;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.NYCaresimage {
+  background-image:url(images/akg.jpg);
+  height:  100%;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.MLimage {
+  background-image:url(images/junko.jpg);
+  height:  100%;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.NYCPdis {
+  height: 18.75em;
+  text-align: center;
+  line-height: 200%;
+  padding-left: 11%;
+  padding-right: 11%;
+}
+#nycp {
+  background-color: #3377ff;
+  color: white;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.NYCaresdis {
+  height: 18.75em;
+  text-align: center;
+  line-height: 200%;
+  padding-left: 11%;
+  padding-right: 11%;
+}
+#nycs {
+  background-color: white;
+  color: red;
+  border-bottom-right-radius: .4em;
+  border-bottom-left-radius: .4em;
+  
+}
+.MLdis {
+  height: 15.6em;
+  text-align: center;
+  line-height: 200%;
+  padding-left: 11%;
+  padding-right: 11%;
+}
+
+#ml {
+  
+  background-color: #99ff99;
+  color: black;
+  border-bottom-right-radius: .4em;
+  border-bottom-left-radius: .4em;
+}
+  #hiN {
+    color: #3bcbf1;
+  }
+/****************************        Security   ********************/
+
+.hero-image {
+    background-image: url("images/rooftop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+#hiS{
+  color: #3bcbf1;
+}
+
+
+
